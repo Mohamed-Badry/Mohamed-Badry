@@ -96,7 +96,6 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
   <a href="https://jupyter.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40" height="40"/></a>
   <a href="https://docs.conda.io/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" alt="conda" width="40" height="40"/></a>
   <a href="https://helix-editor.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/helix-editor/helix/refs/heads/master/logo.svg" alt="helix" width="40" height="40"/></a>
-  <a href="https://www.latex-project.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="latex" width="40" height="40" style="background: #fff; border-radius: 8px; padding: 2px;"/></a>
   <a href="https://github.com/astral-sh/uv" target="_blank" rel="noreferrer"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json" alt="uv" height="40" width="90"/></a>
   <a href="https://github.com/astral-sh/ruff" target="_blank" rel="noreferrer"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff" height="40" width="90"/></a>
 </span>
@@ -158,7 +157,7 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
     <img src="https://github-readme-stats.vercel.app/api?username=Mohamed-Badry&show_icons=true&theme=catppuccin_mocha&include_all_commits=true&count_private=true" alt="GitHub Stats" height="210" style="border-radius: 0; margin: 0;"/>
   </a>
   <a href="https://github.com/Mohamed-Badry" style="display: flex;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Badry&layout=compact&langs_count=8&theme=catppuccin_mocha&card_width=260" alt="Top Languages" height="210" style="border-radius: 0; margin: 0;"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Badry&layout=donut-vertical&size_weight=0.1&count_weight=2&count_private=true&langs_count=8&theme=catppuccin_mocha&card_width=260" alt="Top Languages" height="210" style="border-radius: 0; margin: 0;"/>
   </a>
 </div>
 
