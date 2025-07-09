@@ -154,7 +154,7 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: stretch; gap: 0; flex-wrap: nowrap;">
 
   <a href="https://github.com/Mohamed-Badry" style="display: flex;">
-    <img src="https://github-readme-stats.vercel.app/api?username=Mohamed-Badry&show_icons=true&theme=catppuccin_mocha&include_all_commits=true&count_private=true" alt="GitHub Stats" height="210" style="border-radius: 0; margin: 0;"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=Mohamed-Badry&show_icons=true&theme=catppuccin_mocha&include_all_commits=true&count_private=true&show=reviews&rank_icon=github" alt="GitHub Stats" height="210" style="border-radius: 0; margin: 0;"/>
   </a>
   <a href="https://github.com/Mohamed-Badry" style="display: flex;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Badry&layout=donut&size_weight=0.1&count_weight=2&count_private=true&langs_count=8&theme=catppuccin_mocha&card_width=260" alt="Top Languages" height="210" style="border-radius: 0; margin: 0;"/>
