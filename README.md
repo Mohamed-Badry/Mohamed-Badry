@@ -152,20 +152,16 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
 
 <div align="center">
 
-<!-- Flex container for stats and languages, glued together, same height -->
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: stretch; gap: 0; flex-wrap: nowrap;">
 
-  <!-- GitHub Stats -->
   <a href="https://github.com/Mohamed-Badry" style="display: flex;">
     <img src="https://github-readme-stats.vercel.app/api?username=Mohamed-Badry&show_icons=true&theme=catppuccin_mocha&include_all_commits=true&count_private=true" alt="GitHub Stats" height="210" style="border-radius: 0; margin: 0;"/>
   </a>
-  <!-- Top Languages -->
   <a href="https://github.com/Mohamed-Badry" style="display: flex;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Badry&layout=compact&langs_count=8&theme=catppuccin_mocha&card_width=260" alt="Top Languages" height="210" style="border-radius: 0; margin: 0;"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Badry&langs_count=8&theme=catppuccin_mocha&card_width=260" alt="Top Languages" style="border-radius: 0; margin: 0;"/>
   </a>
 </div>
 
-<!-- Streak Stats (wider, below, no extra margin) -->
 <div style="margin-top: -4px;">
   <a href="https://github.com/Mohamed-Badry">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohamed-Badry&theme=catppuccin_mocha" alt="GitHub Streak" height="210" width="540" style="border-radius: 0; margin: 0;"/>
