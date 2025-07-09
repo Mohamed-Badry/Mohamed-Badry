@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <!-- Profile Views Badge with cool style -->
+  <!-- Profile Views Badge  -->
   <img src="https://komarev.com/ghpvc/?username=Mohamed-Badry&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
 
   <!-- GitHub Followers Badge -->
@@ -14,10 +14,6 @@
 
   <!-- GitHub User Stars Badge -->
   <img src="https://img.shields.io/github/stars/Mohamed-Badry?affiliations=OWNER%2CCOLLABORATOR&label=Stars&style=for-the-badge&color=ffb300" alt="GitHub Stars" />
-
-  <!-- GitHub Repos Badge -->
-  <img src="https://img.shields.io/badge/Public%20Repos-{{ repo_count }}-brightgreen?style=for-the-badge" alt="Public Repos" />
-
 
 </div>
 
@@ -38,9 +34,21 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
 
 #### Languages
 <p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-  <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer"> <img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" alt="rust" width="40" height="40"/> </a>
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+  alt="python" width="40" height="40"/> </a>
+
+  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" 
+  alt="bash" width="40" height="40"/> </a>
+
+  <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+  alt="java" width="40" height="40"/> </a>
+
+  <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer"> 
+  <img src="https://www.rust-lang.org/logos/rust-logo-256x256.png" 
+  alt="rust" width="40" height="40"/> </a>
 </p>
 
 #### ML & Data Science
@@ -48,18 +56,18 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
   <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a>
   <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
   <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40"/> </a>
-  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg" alt="seaborn" width="40" height="40"/> </a>
+  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a>
   <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/refs/heads/main/doc/logos/scikit-learn-logo-without-subtitle.svg" alt="scikit-learn" width="40" height="40"/> </a>
   <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="pytorch" width="40" height="40"/> </a>
   <a href="https://www.statsmodels.org/" target="_blank" rel="noreferrer"> <img src="https://www.statsmodels.org/stable/_images/statsmodels-logo-v2-no-text.svg" alt="statsmodels" width="40" height="40"/> </a>
 </p>
+
 
 #### Web Frameworks & Others
 <p align="left">
   <a href="https://www.streamlit.io/" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="streamlit" width="40" height="40"/> </a>
   <a href="https://www.selenium.dev/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="selenium" width="40" height="40"/> </a>
   <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/fastapi/009688" alt="fastapi" width="40" height="40"/> </a>
-  <!-- <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/> </a> -->
 </p>
 
 #### Databases
@@ -81,17 +89,14 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
   </a>
-  <!-- <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github actions" width="40" height="40"/>
-  </a> -->
   <a href="https://cloud.google.com/" target="_blank" rel="noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="40" height="40"/>
   </a>
-  
-  <!-- I'll learn docker and the tools below some other time -->
-  <!-- <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/>
-  </a> -->
+  </a>
+
+  <!-- I'll learn the tools below some other time -->
   <!-- <a href="https://kubernetes.io/" target="_blank" rel="noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes" width="40" height="40"/>
   </a> -->
@@ -104,8 +109,33 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
 </p>
 
 
----
+#### Tools & Technologies
 
+<p align="left">
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/>
+  </a>
+  <a href="https://jupyter.org/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40" height="40"/>
+  </a>
+  <a href="https://docs.conda.io/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" alt="conda" width="40" height="40"/>
+  </a>
+  <a href="https://helix-editor.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/helix-editor/helix/refs/heads/master/logo.svg" alt="helix" width="40" height="40"/>
+  </a>
+  <a href="https://github.com/astral-sh/uv" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json" alt="uv" height="40", width="90"/>
+  </a>
+  <a href="https://github.com/astral-sh/ruff" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff" height="40", width="90"/>
+  </a>
+  <a href="https://www.latex-project.org/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="latex" width="40" height="40" style="background: #fff; border-radius: 8px; padding: 2px;"/>
+  </a>
+</p>
+
+---
 ### 🚀 My Projects
 
 #### Work in progress
@@ -154,21 +184,29 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
 
 ### 📊 My GitHub Stats
 
-<p align="center">
-  <a href="https://github.com/Mohamed-Badry">
-    <img src="https://github-readme-stats.vercel.app/api?username=Mohamed-Badry&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+<div align="center">
+
+<!-- Flex container for stats and languages, glued together, same height -->
+<div style="display: flex; flex-direction: row; justify-content: center; align-items: stretch; gap: 0; flex-wrap: nowrap;">
+
+  <!-- GitHub Stats -->
+  <a href="https://github.com/Mohamed-Badry" style="display: flex;">
+    <img src="https://github-readme-stats.vercel.app/api?username=Mohamed-Badry&show_icons=true&theme=catppuccin_mocha&include_all_commits=true&count_private=true" alt="GitHub Stats" height="210" style="border-radius: 0; margin: 0;"/>
   </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Mohamed-Badry">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Badry&layout=compact&langs_count=16&theme=dracula"/>
+  <!-- Top Languages -->
+  <a href="https://github.com/Mohamed-Badry" style="display: flex;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Badry&layout=compact&langs_count=8&theme=catppuccin_mocha&card_width=260" alt="Top Languages" height="210" style="border-radius: 0; margin: 0;"/>
   </a>
-</p>
-<p align="center">
+</div>
+
+<!-- Streak Stats (wider, below, no extra margin) -->
+<div style="margin-top: -4px;">
   <a href="https://github.com/Mohamed-Badry">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohamed-Badry&theme=dracula" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohamed-Badry&theme=catppuccin_mocha" alt="GitHub Streak" height="210" width="540" style="border-radius: 0; margin: 0;"/>
   </a>
-</p>
+</div>
+
+</div>
 
 ---
 
