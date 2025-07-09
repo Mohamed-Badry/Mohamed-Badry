@@ -5,12 +5,20 @@
 </div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/mohamed-badry-205097220/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"/>
-  </a>
-  <!-- <a href="https://twitter.com/your-twitter-handle" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter" width="40" height="40"/>
-  </a> -->
+
+  <!-- Profile Views Badge with cool style -->
+  <img src="https://komarev.com/ghpvc/?username=Mohamed-Badry&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+
+  <!-- GitHub Followers Badge -->
+  <img src="https://img.shields.io/github/followers/Mohamed-Badry?label=Followers&style=for-the-badge&color=6f42c1" alt="GitHub Followers" />
+
+  <!-- GitHub User Stars Badge -->
+  <img src="https://img.shields.io/github/stars/Mohamed-Badry?affiliations=OWNER%2CCOLLABORATOR&label=Stars&style=for-the-badge&color=ffb300" alt="GitHub Stars" />
+
+  <!-- GitHub Repos Badge -->
+  <img src="https://img.shields.io/badge/Public%20Repos-{{ repo_count }}-brightgreen?style=for-the-badge" alt="Public Repos" />
+
+
 </div>
 
 ---
