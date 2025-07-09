@@ -33,7 +33,7 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
 ### 🛠️ My Skills
 
 #### Languages
-<p>
+`<p>
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40"/>
   </a>
@@ -124,7 +124,7 @@ I am a passionate **Machine Learning Engineer** and **Data Scientist** with a st
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="latex" width="40" height="40" style="background: #fff; border-radius: 8px; padding: 2px;"/>
   </a>
 </p>
-
+`
 ---
 ### 🚀 My Projects
 
