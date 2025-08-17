@@ -19,13 +19,14 @@
 
 ---
 
-### 👨‍💻 About Me
+### About Me
 
 I am a passionate **Machine Learning Engineer** and **Data Scientist** with a strong foundation in math and computer science. I enjoy turning data into actionable insights and building intelligent systems that solve real-world problems.
 
-- 🔭 I’m currently finishing up on the [OSSU](https://github.com/ossu/data-science.git) track for data science.
-- 🌱 I’m currently learning more about the math and implementations of ML and DL algorithms.
-- 💬 Ask me about **Python, Machine Learning, and Data Science**.
+- I’m currently finishing up on the [OSSU](https://github.com/ossu/data-science.git) track for data science.
+- I’m currently learning more about the math and implementations of ML and DL algorithms.
+- I also learn Rust and creative programming on the side.
+- Ask me about **Python, Machine Learning, and Data Science**.
 <!-- - 📫 How to reach me **your-email@example.com**. -->
 
 ---
