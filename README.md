@@ -135,7 +135,10 @@ A Machine Learning enthusiast from an engineering background. I love tackling di
 
 ### My GitHub Stats
 
-<div align="center">
+
+Currently down thanks to vercel.
+
+<!-- <div align="center">
 
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: stretch; gap: 0; flex-wrap: nowrap;">
 
@@ -153,14 +156,14 @@ A Machine Learning enthusiast from an engineering background. I love tackling di
   </a>
 </div>
 
-</div>
+</div> -->
 
 ---
 
 ### Connect with Me
 
 <div align="center">
-  <a href="mailto:m.badry.dev.paced271@aleeas.com">
+  <a href="mailto:">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
