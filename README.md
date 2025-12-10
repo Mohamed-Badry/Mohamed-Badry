@@ -98,17 +98,11 @@ A Machine Learning enthusiast from an engineering background. I love tackling di
     <td width="50%" valign="top">
       <h3 align="center">ISLP Solutions</h3>
       <br />
-      <a target="_blank" href="https://github.com/Mohamed-Badry/islp-solutions">
-        <img src="https://raw.githubusercontent.com/Mohamed-Badry/islp-solutions/refs/heads/main/images/logo.svg" width="100%" alt="ISLP Solutions"/>
-      </a>
+      <a target="_blank" href="https://github.com/Mohamed-Badry/islp-solutions"><img src="https://raw.githubusercontent.com/Mohamed-Badry/islp-solutions/refs/heads/main/images/logo.svg" width="100%" alt="ISLP Solutions"/></a>
       <br />
       <p align="center">
-      <a href="https://github.com/Mohamed-Badry/islp-solutions" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-      <a href="https://mohamed-badry.github.io/islp-solutions/" target="_blank">
-        <img src="https://img.shields.io/badge/Website-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-      </a>
+      <a href="https://github.com/Mohamed-Badry/islp-solutions" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="https://mohamed-badry.github.io/islp-solutions/" target="_blank"><img src="https://img.shields.io/badge/Website-F37626?style=for-the-badge&logo=jupyter&logoColor=white" /></a>
       </p>
       <p><strong>Tech stack:</strong> Python, Jupyter Book, Sci-Kit Learn, Pytorch</p>
       <p>My solutions to the exercises in 'An Introduction to Statistical Learning, with Applications in Python'. Rendered as a Jupyter Book.</p>
@@ -116,14 +110,10 @@ A Machine Learning enthusiast from an engineering background. I love tackling di
     <td width="50%" valign="top">
       <h3 align="center">Statui</h3>
       <br />
-      <a target="_blank" href="https://github.com/Mohamed-Badry/statui">
-        <img src="https://github.com/Mohamed-Badry/statui/raw/main/assets/demo.gif" width="100%" alt="statui Demo"/>
-      </a>
+      <a target="_blank" href="https://github.com/Mohamed-Badry/statui"><img src="https://github.com/Mohamed-Badry/statui/raw/main/assets/demo.gif" width="100%" alt="statui Demo"/></a>
       <br />
       <p align="center">
-      <a href="https://github.com/Mohamed-Badry/statui" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
+      <a href="https://github.com/Mohamed-Badry/statui" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
       </p>
       <p><strong>Tech stack:</strong> Rust, Ratatui, Tokio</p>
       <p>A lightweight, async TUI for monitoring API health.</p>
