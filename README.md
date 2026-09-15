@@ -1,7 +1,7 @@
 <div id="header" align="center">
   <!-- <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/> -->
   <h1 align="center">Hi 👋, I'm Mohamed Badry</h1>
-  <h3 align="center">ML Engineer and Data Scientist</h3>
+  <h3 align="center">ML Systems & Dev Tools</h3>
 </div>
 
 <div align="center">
@@ -21,11 +21,61 @@
 
 ### About Me
 
-A Machine Learning enthusiast from an engineering background. I love tackling difficult math and CS problems and thinking about how systems are built, or building them myself. I'm self taught in data science through the [OSSU](https://github.com/ossu/data-science.git) curriculum.
+I build developer tools and machine learning systems. I enjoy tackling difficult math and CS problems and thinking about how systems are built, or building them myself.
 
-- I’m currently learning more about the math and implementations of ML and DL algorithms.
-- I'm taking Stanford's CS231n course on computer vision.
-- And I love Rust 🦀, rust tools, and creative programming.
+- Building CLI and terminal tools in Rust.
+- Exploring GPU compute with wgpu, shader programming, and creative coding.
+- Interested in open-source software and looking to start contributing. 
+- Currently looking for roles in software engineering, ML systems, and backend development.
+
+---
+
+### My Projects
+
+<table bordercolor="#66b2b2">
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">Wedjat</h3>
+      <br />
+      <a target="_blank" href="https://github.com/Mohamed-Badry/wedjat"><img src="https://raw.githubusercontent.com/Mohamed-Badry/wedjat/refs/heads/main/frontend/static/screenshots/home-dark.png" width="100%" alt="Wedjat Dashboard"/></a>
+      <br />
+      <p align="center">
+      <a href="https://github.com/Mohamed-Badry/wedjat" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="https://wedjat.space/" target="_blank"><img src="https://img.shields.io/badge/Website-007ACC?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+      </p>
+      <p><strong>Tech stack:</strong> Python, PyTorch, FastAPI, TimescaleDB, Mosquitto (MQTT), Docker, SvelteKit</p>
+      <p>An end-to-end satellite telemetry analysis platform. Uses PyTorch VAEs for anomaly detection on decoded SatNOGS telemetry frames, a streaming microservice architecture, and a real-time SvelteKit dashboard deployed via Docker Compose.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Statui</h3>
+      <br />
+      <a target="_blank" href="https://github.com/Mohamed-Badry/statui"><img src="https://github.com/Mohamed-Badry/statui/raw/main/assets/demo.gif" width="100%" alt="statui Demo"/></a>
+      <br />
+      <p align="center">
+      <a href="https://github.com/Mohamed-Badry/statui" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="https://crates.io/crates/statui" target="_blank"><img src="https://img.shields.io/badge/crates.io-DEA584?style=for-the-badge&logo=rust&logoColor=white" /></a>
+      </p>
+      <p><strong>Tech stack:</strong> Rust, Ratatui, Tokio</p>
+      <p>A lightweight, async TUI for monitoring API health, configured via TOML. Handles concurrent HTTP polling without blocking the terminal render loop.</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3 align="center">ISLP Solutions</h3>
+      <br />
+      <p align="center">
+        <a target="_blank" href="https://github.com/Mohamed-Badry/islp-solutions"><img src="https://raw.githubusercontent.com/Mohamed-Badry/islp-solutions/refs/heads/main/images/logo.svg" width="280" alt="ISLP Solutions"/></a>
+      </p>
+      <br />
+      <p align="center">
+      <a href="https://github.com/Mohamed-Badry/islp-solutions" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+      <a href="https://mohamed-badry.github.io/islp-solutions/" target="_blank"><img src="https://img.shields.io/badge/Website-F37626?style=for-the-badge&logo=jupyter&logoColor=white" /></a>
+      </p>
+      <p><strong>Tech stack:</strong> Python, Jupyter Book, Scikit-Learn, PyTorch</p>
+      <p>Complete solutions to exercises in <em>An Introduction to Statistical Learning with Python</em>, deployed as an interactive Jupyter Book reference (~1.9k annual readers).</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -38,11 +88,11 @@ A Machine Learning enthusiast from an engineering background. I love tackling di
   </tr>
   <tr>
     <td valign="top"><strong>ML & Data Science</strong></td>
-    <td valign="top"><a href="https://numpy.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40"/></a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40"/></a> <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40"/></a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40"/></a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/refs/heads/main/doc/logos/scikit-learn-logo-without-subtitle.svg" alt="scikit-learn" width="40"/></a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="pytorch" width="40"/></a> <a href="https://www.statsmodels.org/" target="_blank" rel="noreferrer"><img src="https://www.statsmodels.org/stable/_images/statsmodels-logo-v2-no-text.svg" alt="statsmodels" width="40"/></a></td>
+    <td valign="top"><a href="https://numpy.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40"/></a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40"/></a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/refs/heads/main/doc/logos/scikit-learn-logo-without-subtitle.svg" alt="scikit-learn" width="40"/></a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="pytorch" width="40"/></a> <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40"/></a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40"/></a> <a href="https://www.statsmodels.org/" target="_blank" rel="noreferrer"><img src="https://www.statsmodels.org/stable/_images/statsmodels-logo-v2-no-text.svg" alt="statsmodels" width="40"/></a></td>
   </tr>
   <tr>
-    <td valign="top"><strong>Web & Others</strong></td>
-    <td valign="top"><a href="https://www.streamlit.io/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="streamlit" width="40"/></a> <a href="https://www.selenium.dev/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="selenium" width="40"/></a> <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="fastapi" width="40"/></a></td>
+    <td valign="top"><strong>Web & Backend</strong></td>
+    <td valign="top"><a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="fastapi" width="40"/></a> <a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" alt="svelte" width="40"/></a> <a href="https://www.streamlit.io/" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="streamlit" width="40"/></a> <a href="https://www.selenium.dev/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="selenium" width="40"/></a></td>
   </tr>
   <tr>
     <td valign="top"><strong>Databases</strong></td>
@@ -52,70 +102,6 @@ A Machine Learning enthusiast from an engineering background. I love tackling di
     <td valign="top"><strong>MLOps & Cloud</strong></td>
     <td valign="top"><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40"/></a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="40"/></a> <a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="40"/></a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="docker" width="40"/></a></td>
   </tr>
-  <tr>
-    <td valign="top"><strong>Tools & Tech</strong></td>
-    <td valign="top"><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="40"/></a> <a href="https://jupyter.org/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40"/></a> <a href="https://docs.conda.io/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" alt="conda" width="40"/></a> <a href="https://helix-editor.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/helix-editor/helix/refs/heads/master/logo.svg" alt="helix" width="40"/></a> <a href="https://github.com/astral-sh/uv" target="_blank" rel="noreferrer"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json" alt="uv" width="90"/></a> <a href="https://github.com/astral-sh/ruff" target="_blank" rel="noreferrer"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff" width="90"/></a></td>
-  </tr>
 </table>
 
 ---
-### My Projects
-
-<table bordercolor="#66b2b2">
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">ISLP Solutions</h3>
-      <br />
-      <a target="_blank" href="https://github.com/Mohamed-Badry/islp-solutions"><img src="https://raw.githubusercontent.com/Mohamed-Badry/islp-solutions/refs/heads/main/images/logo.svg" width="100%" alt="ISLP Solutions"/></a>
-      <br />
-      <p align="center">
-      <a href="https://github.com/Mohamed-Badry/islp-solutions" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-      <a href="https://mohamed-badry.github.io/islp-solutions/" target="_blank"><img src="https://img.shields.io/badge/Website-F37626?style=for-the-badge&logo=jupyter&logoColor=white" /></a>
-      </p>
-      <p><strong>Tech stack:</strong> Python, Jupyter Book, Sci-Kit Learn, Pytorch</p>
-      <p>My solutions to the exercises in 'An Introduction to Statistical Learning, with Applications in Python'. Rendered as a Jupyter Book.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">Statui</h3>
-      <br />
-      <a target="_blank" href="https://github.com/Mohamed-Badry/statui"><img src="https://github.com/Mohamed-Badry/statui/raw/main/assets/demo.gif" width="100%" alt="statui Demo"/></a>
-      <br />
-      <p align="center">
-      <a href="https://github.com/Mohamed-Badry/statui" target="_blank"><img src="https://img.shields.io/badge/Repo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-      </p>
-      <p><strong>Tech stack:</strong> Rust, Ratatui, Tokio</p>
-      <p>A lightweight, async TUI for monitoring API health.</p>
-    </td>
-  </tr>
-</table>
-
----
-
-### My GitHub Stats
-
-
-Currently down thanks to vercel.
-
-<!-- <div align="center">
-
-<div style="display: flex; flex-direction: row; justify-content: center; align-items: stretch; gap: 0; flex-wrap: nowrap;">
-
-  <a href="https://github.com/Mohamed-Badry" style="display: flex;">
-    <img src="https://github-readme-stats.vercel.app/api?username=Mohamed-Badry&show_icons=true&theme=catppuccin_mocha&include_all_commits=true&count_private=true&show=reviews&rank_icon=github" alt="GitHub Stats" height="210" style="border-radius: 0; margin: 0;"/>
-  </a>
-  <a href="https://github.com/Mohamed-Badry" style="display: flex;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Badry&layout=donut&size_weight=0.1&count_weight=2&count_private=true&langs_count=8&theme=catppuccin_mocha&card_width=260" alt="Top Languages" height="210" style="border-radius: 0; margin: 0;"/>
-  </a>
-</div>
-
-<div style="margin-top: -4px;">
-  <a href="https://github.com/Mohamed-Badry">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohamed-Badry&theme=catppuccin_mocha" alt="GitHub Streak" height="210" width="540" style="border-radius: 0; margin: 0;"/>
-  </a>
-</div>
-
-</div> -->
-
----
-
-
