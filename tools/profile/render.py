@@ -228,7 +228,7 @@ def build_footer():
 # ──────────────────────────────── links ───────────────────────────────
 LINKS = [
     ("linkedin", "LinkedIn", "in/mohamed0badry", "https://www.linkedin.com/in/mohamed0badry/"),
-    ("discord", "Discord", "crim02", "https://discord.com/users/571315867426488330"),
+    ("discord", "Discord", "crim02", "https://discord.com/users/573548974636793876"),
     ("devdotto", "DEV", "@mohamedbadry", "https://dev.to/mohamedbadry"),
     ("mail", "Email", "m.badry.fl@gmail.com", "mailto:m.badry.fl@gmail.com"),
 ]
