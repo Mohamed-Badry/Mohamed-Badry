@@ -1,8 +1,8 @@
 {
   "created_at": "2022-11-20T09:10:48Z",
   "followers": 14,
-  "prs": 52,
-  "prs_merged": 43,
+  "prs": 8,
+  "prs_merged": 6,
   "stars": 147,
   "forks": 11,
   "repo_stars": {
@@ -28,7 +28,7 @@
   "languages": {
     "Jupyter Notebook": 26875945,
     "HTML": 2801694,
-    "Python": 646870,
+    "Python": 690644,
     "Svelte": 359307,
     "Rust": 261448,
     "Java": 224129,
@@ -39,7 +39,7 @@
     "Less": 28718,
     "AutoHotkey": 12211,
     "CSS": 9519,
-    "Just": 8717,
+    "Just": 9166,
     "GLSL": 7886,
     "TeX": 5563,
     "Dockerfile": 5331,
@@ -50,11 +50,11 @@
     "Mako": 720
   },
   "year": 2026,
-  "commits_year": 684,
-  "commits_all": 997,
-  "contributions_year": 750,
-  "contributions_all": 1089,
-  "streak_current": 19,
-  "streak_longest": 19,
+  "commits_year": 529,
+  "commits_all": 749,
+  "contributions_year": 751,
+  "contributions_all": 1090,
+  "streak_current": 20,
+  "streak_longest": 20,
   "updated": "2026-10-29"
 }
