@@ -78,7 +78,7 @@ def generate_readme(stats, calendar):
     content = f'''<p align="center">
 <img src="./assets/header.svg" width="100%" align="top" alt="{alt_header}">
 <img src="./assets/links.svg" width="100%" align="top" alt="Links">
-<a href="https://github.com/Mohamed-Badry"><img src="./assets/links/github.svg" width="20%" align="top" alt="GitHub"></a><a href="https://www.linkedin.com/in/mohamed0badry/"><img src="./assets/links/linkedin.svg" width="20%" align="top" alt="LinkedIn"></a><a href="https://discord.com/users/571315867426488330"><img src="./assets/links/discord.svg" width="20%" align="top" alt="Discord"></a><a href="https://dev.to/mohamedbadry"><img src="./assets/links/devdotto.svg" width="20%" align="top" alt="DEV"></a><a href="mailto:m.badry.fl@gmail.com"><img src="./assets/links/mail.svg" width="20%" align="top" alt="Email"></a>
+<a href="https://www.linkedin.com/in/mohamed0badry/"><img src="./assets/links/linkedin.svg" width="25%" align="top" alt="LinkedIn"></a><a href="https://discord.com/users/571315867426488330"><img src="./assets/links/discord.svg" width="25%" align="top" alt="Discord"></a><a href="https://dev.to/mohamedbadry"><img src="./assets/links/devdotto.svg" width="25%" align="top" alt="DEV"></a><a href="mailto:m.badry.fl@gmail.com"><img src="./assets/links/mail.svg" width="25%" align="top" alt="Email"></a>
 <img src="./assets/stats.svg" width="100%" align="top" alt="{alt_stats}">
 <img src="./assets/contribution-city.svg" width="100%" align="top" alt="{alt_city}">
 <img src="./assets/projects.svg" width="100%" align="top" alt="Projects">

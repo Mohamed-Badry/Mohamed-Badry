@@ -227,15 +227,14 @@ def build_footer():
 
 # ──────────────────────────────── links ───────────────────────────────
 LINKS = [
-    ("github", "GitHub", "@Mohamed-Badry", "https://github.com/Mohamed-Badry"),
     ("linkedin", "LinkedIn", "in/mohamed0badry", "https://www.linkedin.com/in/mohamed0badry/"),
     ("discord", "Discord", "crim02", "https://discord.com/users/571315867426488330"),
     ("devdotto", "DEV", "@mohamedbadry", "https://dev.to/mohamedbadry"),
     ("mail", "Email", "m.badry.fl@gmail.com", "mailto:m.badry.fl@gmail.com"),
 ]
 ICONS = json.load(open(HERE / "icons.json"))
-SEG = W // len(LINKS)     # 176 px per button slice
-BTN_W, BTN_GAP = 124, 39
+SEG = W // len(LINKS)     # 220 px per button slice
+BTN_W, BTN_GAP = 158, 48
 
 
 def icon_markup(key, x, y, size=18):
