@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="80" viewBox="0 0 88 80" role="presentation">
+<defs>
+<pattern id="grid" x="4" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#9ccfd8" stroke-opacity=".06"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+
+<rect x="0" y="0" width="88" height="80" fill="#191724"/>
+<rect x="0" y="0" width="88" height="80" fill="url(#grid)"/>
+
+</svg>

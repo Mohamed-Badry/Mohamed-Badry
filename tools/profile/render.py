@@ -226,15 +226,7 @@ def build_footer():
 
 
 # ──────────────────────────────── links ───────────────────────────────
-LINKS = [
-    ("linkedin", "LinkedIn", "in/mohamed0badry", "https://www.linkedin.com/in/mohamed0badry/"),
-    ("discord", "Discord", "crim02", "https://discord.com/users/573548974636793876"),
-    ("devdotto", "DEV", "@mohamedbadry", "https://dev.to/mohamedbadry"),
-    ("mail", "Email", "m.badry.fl@gmail.com", "mailto:m.badry.fl@gmail.com"),
-]
 ICONS = json.load(open(HERE / "icons.json"))
-SEG = W // len(LINKS)     # 220 px per button slice
-BTN_W, BTN_GAP = 158, 48
 
 
 def icon_markup(key, x, y, size=18):
@@ -255,29 +247,43 @@ def build_links_head():
     return slice_svg(120, body, title="Links", desc="Where to find me", text="~/links// 01$ ping mohamed-badry --all-channels")
 
 
-def build_link_button(k):
-    key, label, handle, url = LINKS[k]
+def build_link_spacer(width, x0, first=False, last=False):
     h = 80
-    x0 = SEG * k
-    lx = X + k * (BTN_W + BTN_GAP) - x0
-    first, last = k == 0, k == len(LINKS) - 1
     bg0 = FL - x0 if first else 0
-    bg1 = FR - x0 if last else SEG
+    bg1 = FR - x0 if last else width
     rails = (f"M{FL - x0} 0V{h}" if first else "") + (f"M{FR - x0} 0V{h}" if last else "")
     glow = (f"M{FL - x0} -40V{h+40}" if first else "") + (f"M{FR - x0} -40V{h+40}" if last else "")
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{h}" viewBox="0 0 {width} {h}" role="presentation">
+<defs>
+<pattern id="grid" x="{(-x0) % 40}" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="{FOAM}" stroke-opacity=".06"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+{f'<path d="{glow}" fill="none" stroke="{FOAM}" stroke-width="3" opacity=".45" filter="url(#glow)"/>' if glow else ""}
+<rect x="{bg0}" y="0" width="{bg1-bg0}" height="{h}" fill="{BASE}"/>
+<rect x="{bg0}" y="0" width="{bg1-bg0}" height="{h}" fill="url(#grid)"/>
+{f'<path d="{rails}" fill="none" stroke="{FOAM}" stroke-width="1.2"/>' if rails else ""}
+</svg>
+'''
+
+
+def build_link_button(width, x0, key, label, handle, url, delay=0.25):
+    h = 80
+    bx, bw = 8, width - 16
     by, bh, cut = 12, 56, 12
-    box = f"M{lx} {by}H{lx+BTN_W-cut}L{lx+BTN_W} {by+cut}V{by+bh}H{lx}Z"
+    box = f"M{bx} {by}H{bx+bw-cut}L{bx+bw} {by+cut}V{by+bh}H{bx}Z"
     text = label + handle + "in"
-    body = f'''<g class="ln" style="animation-delay:{.25 + k*.08:.2f}s">
+    ax = bx + bw - 16
+    body = f'''<g class="ln" style="animation-delay:{delay:.2f}s">
 <path d="{box}" fill="{FOAM}" fill-opacity=".06"/>
 <path d="{box}" fill="none" stroke="{FOAM}" stroke-opacity=".55"/>
-<path d="M{lx+BTN_W-cut} {by}L{lx+BTN_W} {by+cut}" stroke="{FOAM}" stroke-width="2"/>
-<g filter="url(#g)" opacity=".4">{icon_markup(key, lx+12, by+11)}</g>
-{icon_markup(key, lx+12, by+11)}
-<text x="{lx+38}" y="{by+25}" font-weight="700" class="fm" style="font-size:13px">{e(label)}</text>
-<text x="{lx+12}" y="{by+46}" class="dim" style="font-size:10px">{e(handle)}</text>
+<path d="M{bx+bw-cut} {by}L{bx+bw} {by+cut}" stroke="{FOAM}" stroke-width="2"/>
+<g filter="url(#g)" opacity=".4">{icon_markup(key, bx+16, by+17, size=22)}</g>
+{icon_markup(key, bx+16, by+17, size=22)}
+<text x="{bx+48}" y="{by+26}" font-weight="700" class="fm" style="font-size:14px">{e(label)}</text>
+<text x="{bx+48}" y="{by+46}" class="dim" style="font-size:11px">{e(handle)}</text>
+<path d="M{ax-6} {by+25}l8-8M{ax-4} {by+17}h6v6" fill="none" stroke="{FOAM}" stroke-width="1.6"/>
 </g>'''
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{SEG}" height="{h}" viewBox="0 0 {SEG} {h}" role="img" aria-labelledby="t d">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{h}" viewBox="0 0 {width} {h}" role="img" aria-labelledby="t d">
 <title id="t">{e(label)}</title>
 <desc id="d">{e(label)}: {e(url)}</desc>
 <style>
@@ -290,11 +296,9 @@ def build_link_button(k):
 <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
 <filter id="g" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="4"/></filter>
 </defs>
-{f'<path d="{glow}" fill="none" stroke="{FOAM}" stroke-width="3" opacity=".45" filter="url(#glow)"/>' if glow else ""}
-<rect x="{bg0}" y="0" width="{bg1-bg0}" height="{h}" fill="{BASE}"/>
-<rect x="{bg0}" y="0" width="{bg1-bg0}" height="{h}" fill="url(#grid)"/>
+<rect x="0" y="0" width="{width}" height="{h}" fill="{BASE}"/>
+<rect x="0" y="0" width="{width}" height="{h}" fill="url(#grid)"/>
 {body}
-{f'<path d="{rails}" fill="none" stroke="{FOAM}" stroke-width="1.2"/>' if rails else ""}
 </svg>
 '''
 
@@ -766,8 +770,11 @@ def main():
 
     write("header.svg", build_header())
     write("links.svg", build_links_head())
-    for k, (key, *_) in enumerate(LINKS):
-        write(f"links/{key}.svg", build_link_button(k))
+    write("links/spacer-left.svg", build_link_spacer(132, 0, first=True))
+    write("links/discord.svg", build_link_button(264, 132, "discord", "Discord", "crim02", "https://discord.com/users/573548974636793876", delay=0.25))
+    write("links/spacer-mid.svg", build_link_spacer(88, 396))
+    write("links/mail.svg", build_link_button(264, 484, "mail", "Email", "m.badry.fl@gmail.com", "mailto:m.badry.fl@gmail.com", delay=0.35))
+    write("links/spacer-right.svg", build_link_spacer(132, 748, last=True))
     write("stats.svg", build_stats(stats))
     if (args.data / "calendar.json").exists():
         write("contribution-city.svg", build_city(json.load(open(args.data / "calendar.json")), stats["updated"]))
