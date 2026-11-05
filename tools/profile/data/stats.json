@@ -32,7 +32,7 @@
     "Svelte": 359307,
     "Rust": 261448,
     "Java": 224129,
-    "Nix": 78181,
+    "Nix": 78548,
     "Typst": 51120,
     "TypeScript": 50356,
     "Shell": 30034,
@@ -50,11 +50,11 @@
     "Mako": 720
   },
   "year": 2026,
-  "commits_year": 697,
-  "commits_all": 1010,
-  "contributions_year": 763,
-  "contributions_all": 1102,
-  "streak_current": 3,
+  "commits_year": 699,
+  "commits_all": 1012,
+  "contributions_year": 765,
+  "contributions_all": 1104,
+  "streak_current": 1,
   "streak_longest": 21,
-  "updated": "2026-11-04"
+  "updated": "2026-11-05"
 }
