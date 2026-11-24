@@ -1,6 +1,6 @@
 {
   "created_at": "2022-11-20T09:10:48Z",
-  "followers": 12,
+  "followers": 13,
   "prs": 52,
   "prs_merged": 44,
   "stars": 148,
@@ -32,7 +32,7 @@
     "Svelte": 359307,
     "Rust": 261448,
     "Java": 224129,
-    "Nix": 89904,
+    "Nix": 93850,
     "Typst": 51120,
     "TypeScript": 50356,
     "Shell": 30034,
@@ -50,11 +50,11 @@
     "Mako": 720
   },
   "year": 2026,
-  "commits_year": 771,
-  "commits_all": 1089,
-  "contributions_year": 843,
-  "contributions_all": 1187,
-  "streak_current": 1,
+  "commits_year": 777,
+  "commits_all": 1095,
+  "contributions_year": 849,
+  "contributions_all": 1193,
+  "streak_current": 2,
   "streak_longest": 21,
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
 }
